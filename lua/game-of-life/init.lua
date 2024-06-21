@@ -69,7 +69,7 @@ end
 
 H.apply_autocommands = function(config)
 
-	vim.cmd("command! START lua startGame()")
+	vim.cmd("command! START lua GameOfLife.startGame()")
 end
 
 GameOfLife.startGame = function()
